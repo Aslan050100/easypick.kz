@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <title>Eastpick.kz</title>
+    <title>Easypick.kz</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
@@ -77,10 +77,8 @@
 
             <div class="display-table center-text">
                 <div class="display-table-cell">
-
-
                     <div id="rounded-countdown">
-                        <div class="countdown" data-remaining-sec="120"></div>
+                        <div class="countdown" data-remaining-sec="200020"></div>
                     </div>
 
                 </div><!-- display-table-cell -->
