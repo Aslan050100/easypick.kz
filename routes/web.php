@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',['uses'=>'ConstructionController@index','as'=>'index']);
-Route::post('/email',['uses'=>'ConstructionController@email','as'=>'email']);
+Route::match(['get','post'],'/email',['uses'=>'ConstructionController@email','as'=>'email']);
