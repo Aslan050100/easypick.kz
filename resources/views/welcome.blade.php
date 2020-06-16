@@ -51,7 +51,7 @@
                         <div class="email-input-area">
                             <form method="post" action="{{route('email')}}">
                                 {{ csrf_field() }}
-                                <input class="email-input" name="email" type="text" placeholder="Введите адрес электронной почты"/>
+                                <input class="email-input" name="email" type="email" placeholder="Введите адрес электронной почты"/>
                                 <button class="submit-btn" name="submit" type="submit"><b>Уведомить нас</b></button>
                             </form>
                         </div><!-- email-input-area -->
@@ -73,12 +73,12 @@
 
         </section><!-- left-section -->
 
-        <section class="right-section" style="background-image: url(assets/images/logo2.jpg)">
+        <section class="right-section" style="background-image: url(assets/images/logo3.jpg); background-repeat: no-repeat;">
 
             <div class="display-table center-text">
                 <div class="display-table-cell">
                     <div id="rounded-countdown">
-                        <div class="countdown" data-remaining-sec="200020"></div>
+                        <div class="countdown" data-remaining-sec="112020"></div>
                     </div>
 
                 </div><!-- display-table-cell -->

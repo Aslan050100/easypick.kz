@@ -161,5 +161,5 @@ b.light-color{ color: #444; }
 .right-section:after{ content:''; position: absolute; top: 0; bottom: 0; right: 0; left: 0; z-index: -2;
 	opacity: .3; background: linear-gradient(to right, #23074d, #cc5333); }
 
-#rounded-countdown{ width: 80%; margin: 0 auto; }
+#rounded-countdown{ width: 80%; margin: 0 auto; padding-top:422px; }
 

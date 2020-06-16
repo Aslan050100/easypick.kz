@@ -14,7 +14,7 @@ class ConstructionController extends Controller
         $notify  = new Notify;
         $notify->email = $email;
         $notify->save();
-        Session::flash('message', "Succesfull!!!");
+        Session::flash('message', "Мы вам сообщим!");
         return redirect()->back();
 
     }
