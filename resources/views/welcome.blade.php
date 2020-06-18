@@ -7,12 +7,13 @@
     <meta charset="UTF-8">
     <meta name="description" content="Digital Marketing Agency">
     <meta name="author" content="Aslan Aitkulov">
-    <meta http-equiv="refresh" content="30">
+{{--    <meta http-equiv="refresh" content="30">--}}
     <meta name="keywords" content="разработка сайт в Актобе">
     <META NAME="geo.position" CONTENT="50° 16' 60.00; 57° 09' 60.00">
     <META NAME="geo.placename" CONTENT="Kazakhstan, Aktobe">
     <META NAME="geo.region" CONTENT="ISO 3166-2:KZ">
     <meta name="robots" content="noindex" />
+    <link rel="icon" href=" assets/images/logo.jpg">
 
     <!-- Font -->
 
@@ -73,16 +74,8 @@
 
         </section><!-- left-section -->
 
-        <section class="right-section" style="background-image: url(assets/images/logo3.jpg); background-repeat: no-repeat;">
+        <section class="right-section" style="background-image: url(assets/images/logo2.jpg); background-repeat: no-repeat;">
 
-            <div class="display-table center-text">
-                <div class="display-table-cell">
-                    <div id="rounded-countdown">
-                        <div class="countdown" data-remaining-sec="112020"></div>
-                    </div>
-
-                </div><!-- display-table-cell -->
-            </div><!-- display-table -->
 
         </section><!-- right-section -->
 
