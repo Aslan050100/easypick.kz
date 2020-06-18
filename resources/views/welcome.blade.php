@@ -73,7 +73,7 @@
 
         </section><!-- left-section -->
 
-        <section class="right-section" style="background-image: url(assets/images/logo3.jpg); background-repeat: no-repeat;background-position: center;">
+        <section class="right-section" style="background-image: url(assets/images/logo3.jpg); background-repeat: no-repeat;background-position: center;background-size: cover;">
 
 
         </section><!-- right-section -->
