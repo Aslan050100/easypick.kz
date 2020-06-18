@@ -1,16 +1,11 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <title>Easypick.kz</title>
+    {!! SEO::generate() !!}
+    <meta name="google-site-verification" content="9kN7AswAXoHhlhop3awUwxxBYHZvMCyVBJpQ0ffyuxc" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <meta name="description" content="Digital Marketing Agency">
-    <meta name="author" content="Aslan Aitkulov">
-    <meta name="keywords" content="разработка сайт в Актобе">
-    <META NAME="geo.position" CONTENT="50° 16' 60.00; 57° 09' 60.00">
-    <META NAME="geo.placename" CONTENT="Kazakhstan, Aktobe">
-    <META NAME="geo.region" CONTENT="ISO 3166-2:KZ">
     <meta name="robots" content="noindex" />
     <link rel="icon" href=" {{ asset('assets/images/logo.jpg') }}">
 
