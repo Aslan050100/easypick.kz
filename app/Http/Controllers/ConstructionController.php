@@ -30,8 +30,7 @@ class ConstructionController extends Controller
         SEOTools::setTitle('Easypick.kz');
         SEOTools::setDescription('Разработка сайтов в Актобе');
         SEOTools::opengraph()->setUrl('http://easypick.kz');
-        SEOTools::setCanonical('http://easypick.kz');
-        SEOTools::opengraph()->addProperty('type', 'articles');
+        SEOTools::opengraph()->addProperty('type', 'articles')  ;
         SEOTools::twitter()->setSite('@Aslan050100');
         SEOTools::jsonLd()->addImage('https://easypick.kz/assets/images/logo.jpg');
         return view('welcome');

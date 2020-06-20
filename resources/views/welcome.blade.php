@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <meta name="robots" content="noindex" />
-    <link rel="icon" href=" {{ asset('assets/images/logo.jpg') }}">
+    <link rel="icon" type="image/x-icon" href="https://easypick.kz/assets/images/logo.jpg" />
 
     <!-- Font -->
 

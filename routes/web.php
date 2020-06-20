@@ -15,3 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',['uses'=>'ConstructionController@index','as'=>'index']);
 Route::match(['get','post'],'/email',['uses'=>'ConstructionController@email','as'=>'email']);
+
+Route::post('/req',['uses'=>'RequestController@getInfo','as'=>'req']);
+Route::get('/main',['uses'=>'MainController@index','as'=>'main.index']);
+
+
+Auth::routes();
+
+Route::get('/admin', 'HomeController@index')->name('admin');
