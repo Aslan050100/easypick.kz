@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,6 +19,6 @@ Route::post('/req',['uses'=>'RequestController@getInfo','as'=>'req']);
 Route::get('/main',['uses'=>'MainController@index','as'=>'main.index']);
 
 
-Auth::routes();
-
-Route::get('/admin', 'HomeController@index')->name('admin');
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
