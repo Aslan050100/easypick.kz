@@ -12,11 +12,13 @@ class RequestController extends Controller
     public function getInfo(Request $request){
         $name = $request->name;
         $phone = $request->phone;
+        $message = $request->message;
         $zapros = new Zapros;
         $zapros->name = $name;
         $zapros->phone = $phone;
+        $zapros->message = $message;
         $zapros->save();
-        return 'Successful!!';
+        return redirect()->back();
 
     }
 }

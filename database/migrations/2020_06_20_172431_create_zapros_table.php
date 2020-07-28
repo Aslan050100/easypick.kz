@@ -17,6 +17,7 @@ class CreateZaprosTable extends Migration
             $table->id();
             $table->string('name',255);
             $table->string('phone',255);
+            $table->text('message');
             $table->timestamps();
         });
     }

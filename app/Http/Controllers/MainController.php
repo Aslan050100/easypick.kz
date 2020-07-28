@@ -11,6 +11,6 @@ class MainController extends Controller
     public function index(){
         $reviews = Review::all();
         //dd($reviews);
-        return view('index',['reviews'=>$reviews]);
+        return view('main',['reviews'=>$reviews]);
     }
 }

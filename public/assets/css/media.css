@@ -1,0 +1,320 @@
+@media screen and (max-width: 1600px) {}
+@media screen and (max-width: 1440px) {}
+@media screen and (max-width: 1366px) {}
+@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1024px) {
+
+
+
+
+    .links a {
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+    /*.modal-dialog { width: 90%;  }*/
+}
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {
+    .containers {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .prices {
+        /* margin-right: 99px; */
+        width: 29%;
+        margin-bottom: 52px;
+    }
+
+    .prices:after {
+        content: none;
+    }
+    form.second_form {
+        width: 51%;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .modal-body {
+        flex-direction: column;
+
+    }
+    
+    .mimage {
+        display: none;
+    }
+    /*
+    .modal-body > form {
+        width: 100%;
+    } 
+    
+    .modal-body > form button.close {
+        position: static;
+    }
+    
+    div#text3 {
+        padding-top: 2rem;
+    }
+    
+    .mimage img {
+        max-height: 148px;
+    }
+    */
+}
+@media screen and (max-width: 425px) {
+
+    .links {
+        display: none;
+    }
+
+    .section_header h1 {
+        font-size: 39px;
+        margin-bottom: 35px;
+    }
+
+    .section_header {
+        left: 6%;
+    }
+
+    .section_header p {
+        font-size: 15px;
+        width: 74%;
+        margin-bottom: 49px;
+    }
+
+    p.uptoh2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .leftside {
+        flex-direction: column;
+    }
+
+    .inner {
+        width: 100%;
+    }
+
+    .zabort {
+        height: auto;
+        width: 100%;
+    }
+
+    .uslugi {
+        height: auto;
+    }
+
+    .graphic_left .graph_leftside {
+        display: none;
+    }
+
+    .graphic_right .graph_rightside {
+        display: none;
+    }
+
+    .graphic_left .graph_rightside {
+        width: 100%;
+        text-align: center;
+    }
+
+    .graph_leftside {
+        width: 100%;
+        text-align: center;
+    }
+
+    .persona {
+        width: 100%;
+    }
+
+    .prices {
+        width: 100%;
+        text-align: center;
+    }
+
+    .price_oberka {
+        text-align: center;
+        width: 100%;
+    }
+
+    p.desc {
+        font-size: 15px;
+    }
+
+    p.name_of_comp {
+        font-size: 17px;
+    }
+
+    p.feedack_itself {
+        font-size: 15px;
+    }
+
+    div#contact {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .svyaz_leftside {
+        width: 100%;
+    }
+
+    .address_icons {
+        justify-content: center;
+    }
+
+    .svyaz_leftside h3 {
+        text-align: center;
+    }
+
+    p.desc_add {
+        text-align: center;
+    }
+
+    div#contact {
+        margin-top: 0px;
+    }
+
+    form.second_form {
+        width: 100%;
+        margin-top: 44px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        height: auto;
+        margin-bottom: 43px;
+    }
+
+    .footer_links {
+        flex-direction: column;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .footer_links div {
+        margin-bottom: 7px;
+    }
+    .section2 {
+        height: 836px;
+    }
+    .section2 .container {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .section6 .container {
+        padding: 0;
+    }
+    p.uptoh2 {
+        margin-top: 25px;
+    }
+
+    .section3 h2.white {
+        margin-top: 94px;
+    }
+
+    .section4 h2 {
+        margin: 30px 0px;
+    }
+
+    h2.white {
+        margin: 30px 0 66px;
+    }
+
+    .swiper-pagination {
+        bottom: -99px;
+    }
+
+    .section6 h2 {
+        margin: 30px 0;
+    }
+
+    .section7 h2 {
+        margin-top: 30px;
+    }
+
+    .footer_logo {
+        margin-top: 30px;
+    }
+    form.second_form {
+        padding: 50px 10px;
+    }
+
+    .second_obertka button {width: 100%;}
+
+    .second_obertka {
+        width: 90%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 411px) {
+
+    div#uslugi {
+        height: 964px;
+    }
+
+}
+@media screen and (max-width: 375px) {}
+@media screen and (max-width: 360px) {
+    .section_header h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.section_header p {
+    font-size: 12px;
+}
+
+button#ordersite {
+    font-size: 19px;
+    padding: 6px;
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+form.first_form {
+    flex-direction: column;
+}
+
+.obertka {
+    margin: 0;
+}
+
+button#contacts {
+    width: 100%;
+}
+
+p.uptoh2 {
+    font-size: 20px;
+}
+
+.footer_links a {
+    font-size: 19px;
+}
+}
+@media screen and (max-width: 320px) {
+
+    .section_header {
+    left: 2%;
+}
+
+div#uslugi {
+    height: 1109px;
+}
+
+h2.white:after {
+    width: 209px;
+}
+}
