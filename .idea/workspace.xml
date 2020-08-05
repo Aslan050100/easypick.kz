@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fe29ced-b131-4f4c-81e0-36e74d98d4d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/main.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mail.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RequestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RequestController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_06_20_172431_create_zapros_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_06_20_172431_create_zapros_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/countdown-1-1000x1000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/countdown-2-1000x1000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/countdown-4-1000x1000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/personal.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/personal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/aslan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/aslan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +152,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../restobron.kz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sirius/sirius" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
@@ -192,7 +186,10 @@
       <workItem from="1594724092388" duration="59000" />
       <workItem from="1595075613065" duration="1109000" />
       <workItem from="1595093112245" duration="2333000" />
-      <workItem from="1595928910541" duration="3745000" />
+      <workItem from="1595928910541" duration="4348000" />
+      <workItem from="1596447400643" duration="3170000" />
+      <workItem from="1596543588820" duration="2792000" />
+      <workItem from="1596642268055" duration="15478000" />
     </task>
     <servers />
   </component>
@@ -204,10 +201,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="522" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1592068821310" />
-    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1595929303511">
+    <state x="490" y="166" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1596659310509">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595929303511" />
+    <state x="490" y="166" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596659310509" />
+    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1596659291125">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596659291125" />
     <state x="598" y="333" key="NewPhpFileDialog" timestamp="1592674503899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -216,10 +217,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="284" y="52" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592900574362" />
-    <state x="472" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1595928923025">
+    <state x="472" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1596642267380">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="472" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595928923025" />
+    <state x="472" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596642267380" />
     <state x="480" y="201" key="git4idea.merge.GitPullDialog" timestamp="1592479524127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

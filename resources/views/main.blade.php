@@ -63,7 +63,7 @@
     <div id="header">
         <nav>
             <div class="logo" id="logo">
-                <a href="#"><img src="{{ asset('assets/images/logo.png') }}"></a>
+                <a href="#"><img src="{{ asset('assets/images/logo123.png') }}" style="width: 80%;height: 90%;"></a>
             </div>
             <div class="links">
                 <div>
@@ -117,85 +117,88 @@
 
                     <div class="inner">
                         <div class="inner_leftside">
-                            <img src="{{ asset('assets/images/icon_card.png') }}">
+                            <img src="{{ asset('assets/images/7.png') }}">
                         </div>
                         <div class="inner_rightside">
-                            <h3>Сайт визитка</h3>
-                            <p>Ваша визитка в интернете,
-                                цель которой рассказать о
-                                существовании Вашей
-                                компании</p>
+                            <br>
+                            <h3>Разработка сайтов</h3>
+                            <br/>
+                            <p>Создание Интернет-магазина</p>
+                                <p>Создание сайта Каталог</p>
+                            <p>Создание сайта Визитка</p>
                         </div>
                     </div>
                     <div class="inner">
                         <div class="inner_leftside">
-                            <img src="{{ asset('assets/images/icon_card.png') }}">
+                            <img src="{{ asset('assets/images/8.png') }}">
                         </div>
                         <div class="inner_rightside">
-                            <h3>Сайт визитка</h3>
-                            <p>Ваша визитка в интернете,
-                                цель которой рассказать о
-                                существовании Вашей
-                                компании</p>
+                            <br>
+                            <h3>Продвижение сайтов</h3>
+                            <br/>
+                            <p>Контекстная Реклама</p>
+                            <p>SEO оптимизация</p>
                         </div>
                     </div>
                     <div class="inner">
                         <div class="inner_leftside">
-                            <img src="{{ asset('assets/images/icon_card.png') }}">
+                            <img src="{{ asset('assets/images/9.png') }}">
                         </div>
                         <div class="inner_rightside">
-                            <h3>Сайт визитка</h3>
-                            <p>Ваша визитка в интернете,
-                                цель которой рассказать о
-                                существовании Вашей
-                                компании</p>
+                            <br>
+                            <h3>Графический дизайн</h3>
+                            <br/>
+                            <p>Создание логотипа</p>
+                            <p>Изготовление визиток</p>
+                            <p>Изготовление банера</p>
                         </div>
                     </div>
-
-
+                    <div class="inner">
+                        <div class="inner_leftside">
+                            <img src="{{ asset('assets/images/10.png') }}">
+                        </div>
+                        <div class="inner_rightside">
+                            <br>
+                            <h3>СММ продвижение</h3>
+                            <br/>
+                            <p>Введение аккаунта</p>
+                            <p>Таргетинг Facebook,Instagram</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="leftside">
+{{--                <div class="leftside">--}}
 
-                    <div class="inner">
-                        <div class="inner_leftside">
-                            <img src="{{ asset('assets/images/icon_card.png') }}">
-                        </div>
-                        <div class="inner_rightside">
-                            <h3>Сайт визитка</h3>
-                            <p>Ваша визитка в интернете,
-                                цель которой рассказать о
-                                существовании Вашей
-                                компании</p>
-                        </div>
-                    </div>
-                    <div class="inner">
-                        <div class="inner_leftside">
-                            <img src="{{ asset('assets/images/icon_card.png') }}">
-                        </div>
-                        <div class="inner_rightside">
-                            <h3>Сайт визитка</h3>
-                            <p>Ваша визитка в интернете,
-                                цель которой рассказать о
-                                существовании Вашей
-                                компании</p>
-                        </div>
-                    </div>
-                    <div class="inner">
-                        <div class="inner_leftside">
-                            <img src="{{ asset('assets/images/icon_card.png') }}">
-                        </div>
-                        <div class="inner_rightside">
-                            <h3>Сайт визитка</h3>
-                            <p>Ваша визитка в интернете,
-                                цель которой рассказать о
-                                существовании Вашей
-                                компании</p>
-                        </div>
-                    </div>
+{{--                    <div class="inner">--}}
+{{--                        <div class="inner_leftside">--}}
+{{--                            <img src="{{ asset('assets/images/icon_card.png') }}">--}}
+{{--                        </div>--}}
+{{--                        <div class="inner_rightside">--}}
+{{--                            <h3>Интернет магазин</h3>--}}
+{{--                            <p>Интернет магазин вашего бизнеса. Поистине удобное решение для многих задач в вопросе ведения бизнеса - в настоящее время on-line торговля приносит не меньшую, а даже большую прибыль, чем продажи в стационарных магазинах. </p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="inner">--}}
+{{--                        <div class="inner_leftside">--}}
+{{--                            <img src="{{ asset('assets/images/icon_card.png') }}">--}}
+{{--                        </div>--}}
+{{--                        <div class="inner_rightside">--}}
+{{--                            <h3>Корпоративный сайт</h3>--}}
+{{--                            <p>Интернет портал для бизнеса или “лицо” компании это необходимый элемент успешной работы компании. Корпоративный сайт может способствовать повышению имиджа, непосредственному взаимодействию с потребительской аудиторией и экономии на рекламе.</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="inner">--}}
+{{--                        <div class="inner_leftside">--}}
+{{--                            <img src="{{ asset('assets/images/icon_card.png') }}">--}}
+{{--                        </div>--}}
+{{--                        <div class="inner_rightside">--}}
+{{--                            <h3>Продвижение сайта </h3>--}}
+{{--                            <p>Хотите чтобы ваш сайт стоял на передовой при поиске потенциальными клиентами? Мы поможем!</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
 
-                </div>
+{{--                </div>--}}
 
             </div>
         </div>
@@ -216,9 +219,9 @@
         <div class="containers">
             <div class="prices">
                 <div class="uptoh3">
-                    <img src="{{ asset('assets/images/Ellipse.png') }}">
+                    <img src="{{ asset('assets/images/1.png') }}">
                 </div>
-                <h3 >
+                <h3>
                     Landing Page
                 </h3>
                 <p>
@@ -233,7 +236,7 @@
             </div>
             <div class="prices">
                 <div class="uptoh3">
-                    <img src="{{ asset('assets/images/Ellipse.png') }}">
+                    <img src="{{ asset('assets/images/2.png') }}">
                 </div>
                 <h3 >
                     Сайт-визитка
@@ -249,7 +252,7 @@
                 </div>
             </div><div class="prices">
                 <div class="uptoh3">
-                    <img src="{{ asset('assets/images/Ellipse.png') }}">
+                    <img src="{{ asset('assets/images/5.png') }}">
                 </div>
                 <h3 >
                     Сайт-каталог
@@ -265,7 +268,7 @@
                 </div>
             </div><div class="prices">
                 <div class="uptoh3">
-                    <img src="{{ asset('assets/images/Ellipse.png') }}">
+                    <img src="{{ asset('assets/images/3.png') }}">
                 </div>
                 <h3 >
                     Интернет
@@ -280,7 +283,7 @@
                 </div>
             </div><div class="prices">
                 <div class="uptoh3">
-                    <img src="{{ asset('assets/images/Ellipse.png') }}">
+                    <img src="{{ asset('assets/images/4.png') }}">
                 </div>
                 <h3 >
                     Корпоративный
@@ -297,7 +300,7 @@
             </div>
             <div class="prices last">
                 <div class="uptoh3">
-                    <img src="{{ asset('assets/images/Ellipse.png') }}">
+                    <img src="{{ asset('assets/images/6.png') }}">
                 </div>
                 <h3 >
                     Продвижение
@@ -333,46 +336,50 @@
         <div class="big_obertka">
             <div class="graphic_left">
                 <div class="graph_leftside">
-                    <img src="{{ asset('assets/images/circleone.png') }}" alt="circle">
+                    <img src="{{ asset('assets/images/14.png') }}" alt="circle">
                 </div>
                 <div class="graph_rightside">
-                    <h4>Оптимизация сайта</h4>
+                    <h4>Внимание к деталям</h4>
                     <p>
-                        SEO проводится для улучшения контента вашего сайта, другими словами всестороннее развитие. В GOOGlE, YANDEX .
+                        Именно наше внимание к мелочам, составлению графиков и острому управлению
+                        проектами выделяет нас на фоне остальных. Мы внимательно следим за календарем и вашим бюджетом.
                     </p>
                 </div>
             </div>
             <div class="graphic_right">
                 <div class="graph_leftside">
-                    <h4>Оптимизация сайта</h4>
+                    <h4>Доступность 24/7</h4>
                     <p>
-                        SEO проводится для улучшения контента вашего сайта, другими словами всестороннее развитие. В GOOGlE, YANDEX .
+                        Мы стремимся постоянно поддерживать наших клиентов довольными, и мы готовы круглосуточно предоставить
+                        вам полную поддержку, независимо от того, когда вам это нужно.
                     </p>
                 </div>
                 <div class="graph_rightside">
-                    <img src="{{ asset('assets/images/circletwo.png') }}" alt="circle">
+                    <img src="{{ asset('assets/images/13.png') }}" alt="circle">
                 </div>
             </div>
             <div class="graphic_left">
                 <div class="graph_leftside">
-                    <img src="{{ asset('assets/images/circlethree.png') }}" alt="circle">
+                    <img src="{{ asset('assets/images/12.png') }}" alt="circle">
                 </div>
                 <div class="graph_rightside">
-                    <h4>Оптимизация сайта</h4>
+                    <h4>Доступные цены</h4>
                     <p>
-                        SEO проводится для улучшения контента вашего сайта, другими словами всестороннее развитие. В GOOGlE, YANDEX .
+                        Наши цены конкурентоспособны и справедливы. Там нет никаких неожиданных счетов.
+                        Любые непредвиденные или дополнительные расходы должны быть предварительно одобрены вами.
                     </p>
                 </div>
             </div>
             <div class="graphic_right last">
                 <div class="graph_leftside">
-                    <h4>Оптимизация сайта</h4>
+                    <h4>100% гарантия соответствия</h4>
                     <p>
-                        SEO проводится для улучшения контента вашего сайта, другими словами всестороннее развитие. В GOOGlE, YANDEX .
+                        Мы стремимся к установлению долгосрочных партнерских отношений с нашими клиентами, и единственный
+                        способ сделать это - убедиться, что они на 100% удовлетворены нашими услугами.
                     </p>
                 </div>
                 <div class="graph_rightside">
-                    <img src="{{ asset('assets/images/circelfour.png') }}" alt="circle">
+                    <img src="{{ asset('assets/images/11.png') }}" alt="circle">
                 </div>
             </div>
         </div>
@@ -555,13 +562,43 @@
                 <img src="{{ asset('assets/images/aslan.jpg') }}">
                 <div class="hokage">
                     <div class="name_surname">
-                        ЖАНСАЯ ЖАСБОЛАТ
+                        АСЛАН АЙТКУЛОВ
+                    </div>
+                    <div class="profession">
+                        РАЗРАБОТЧИК
+                    </div>
+                    <div class="quote">
+                        Люди научились использовать технологии, но разучились говорить с людьми…
+                    </div>
+                </div>
+            </div>
+
+            <div class="persona">
+                <img src="{{ asset('assets/images/aziz.jpg') }}">
+                <div class="hokage">
+                    <div class="name_surname">
+                        АЗИЗ НАГМЕТУЛЛИН
+                    </div>
+                    <div class="profession">
+                        Дизайнер
+                    </div>
+                    <div class="quote">
+                        Есть три ответа на результат дизайна – да, нет и НИЧЕГО СЕБЕ! «Ничего себе» – это то, к чему надо стремиться
+                    </div>
+                </div>
+            </div>
+
+            <div class="persona">
+                <img src="{{ asset('assets/images/aibol.jpg') }}">
+                <div class="hokage">
+                    <div class="name_surname">
+                        АЙБОЛ СИСЕНОВ
                     </div>
                     <div class="profession">
                         Менеджер
                     </div>
                     <div class="quote">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Менеджер: человек, принимающий быстрые решения — и иногда верные.
                     </div>
                 </div>
             </div>
@@ -570,13 +607,28 @@
                 <img src="{{ asset('assets/images/aslan2.jpg') }}">
                 <div class="hokage">
                     <div class="name_surname">
-                        ЖАНСАЯ ЖАСБОЛАТ
+                        КУАНЫШ ЖАЙШЫЛЫК
                     </div>
                     <div class="profession">
-                        Менеджер
+                        Дизайнер
                     </div>
                     <div class="quote">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Именно через ошибки мы можем расти. Вы должны бать плохими для того, чтобы стать хорошими.
+                    </div>
+                </div>
+            </div>
+
+            <div class="persona">
+                <img src="{{ asset('assets/images/dias.jpg') }}">
+                <div class="hokage">
+                    <div class="name_surname">
+                        ДИАС КУЖАКУЛОВ
+                    </div>
+                    <div class="profession">
+                        СММ Менеджер
+                    </div>
+                    <div class="quote">
+                        Это своего рода забава – делать невозможное.
                     </div>
                 </div>
             </div>
@@ -585,88 +637,43 @@
                 <img src="{{ asset('assets/images/aslan3.jpg') }}">
                 <div class="hokage">
                     <div class="name_surname">
-                        ЖАНСАЯ ЖАСБОЛАТ
+                        АЛИХАН МУРАТУЛЫ
                     </div>
                     <div class="profession">
-                        Менеджер
+                        Разработчик
                     </div>
                     <div class="quote">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Если отладка — процесс удаления ошибок, то программирование должно быть процессом их внесения.
                     </div>
                 </div>
             </div>
 
             <div class="persona">
-                <img src="{{ asset('assets/images/aslan.jpg') }}">
+                <img src="{{ asset('assets/images/alibi.jpg') }}">
                 <div class="hokage">
                     <div class="name_surname">
-                        ЖАНСАЯ ЖАСБОЛАТ
+                        АЛИБИ МУХИТУЛЫ
                     </div>
                     <div class="profession">
-                        Менеджер
+                        Разработчик
                     </div>
                     <div class="quote">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        НЕ БОЙСЯ МЕДЛИТЬ, БОЙСЯ ОСТАНОВИТЬСЯ
                     </div>
                 </div>
             </div>
 
             <div class="persona">
-                <img src="{{ asset('assets/images/aslan2.jpg') }}">
+                <img src="{{ asset('assets/images/marzhan.jpg') }}">
                 <div class="hokage">
                     <div class="name_surname">
-                        ЖАНСАЯ ЖАСБОЛАТ
+                        МАРЖАН КАБИДОЛЛАЕВА
                     </div>
                     <div class="profession">
-                        Менеджер
+                        Дизайнер
                     </div>
                     <div class="quote">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </div>
-                </div>
-            </div>
-
-            <div class="persona">
-                <img src="{{ asset('assets/images/aslan3.jpg') }}">
-                <div class="hokage">
-                    <div class="name_surname">
-                        ЖАНСАЯ ЖАСБОЛАТ
-                    </div>
-                    <div class="profession">
-                        Менеджер
-                    </div>
-                    <div class="quote">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </div>
-                </div>
-            </div>
-
-            <div class="persona">
-                <img src="{{ asset('assets/images/aslan.jpg') }}">
-                <div class="hokage">
-                    <div class="name_surname">
-                        ЖАНСАЯ ЖАСБОЛАТ
-                    </div>
-                    <div class="profession">
-                        Менеджер
-                    </div>
-                    <div class="quote">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </div>
-                </div>
-            </div>
-
-            <div class="persona">
-                <img src="{{ asset('assets/images/aslan2.jpg') }}">
-                <div class="hokage">
-                    <div class="name_surname">
-                        ЖАНСАЯ ЖАСБОЛАТ
-                    </div>
-                    <div class="profession">
-                        Менеджер
-                    </div>
-                    <div class="quote">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        ЧТО БЫ ТЫ НЕ ДЕЛАЛ — ТЫ ДЕЛАЕШЬ СЕБЯ.
                     </div>
                 </div>
             </div>
@@ -683,58 +690,58 @@
 
 
 
-<div class="section7">
+{{--<div class="section7">--}}
 
-    <h2>
-        Что говорят о нас?
-    </h2>
-    <p class="desc">
-        Для полной чистоты отзывов про нас, вы можете поискать наших клиентов, связываться с ними и спросить всю информацию.
-    </p>
-    <div class="container">
-        <div class="carousel">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="feedback_image">
-                            <img src="{{ asset('assets/images/Ellipse2.png') }}">
-                        </div>
-                        <p class="name_of_comp">Название компании</p>
-                        <p class="feedack_itself">Какой то отзыв отзыв отзыв отзыв отзыв  отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв...</p>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="feedback_image">
-                            <img src="{{ asset('assets/images/Ellipse2.png') }}">
-                        </div>
-                        <p class="name_of_comp">Название компании</p>
-                        <p class="feedack_itself">Какой то отзыв отзыв отзыв отзыв отзыв  отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв...</p>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="feedback_image">
-                            <img src="{{ asset('assets/images/Ellipse2.png') }}">
-                        </div>
-                        <p class="name_of_comp">Название компании</p>
-                        <p class="feedack_itself">Какой то отзыв отзыв отзыв отзыв отзыв  отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв...</p>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="feedback_image">
-                            <img src="{{ asset('assets/images/Ellipse2.png') }}">
-                        </div>
-                        <p class="name_of_comp">Название компании</p>
-                        <p class="feedack_itself">Какой то отзыв отзыв отзыв отзыв отзыв  отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв...</p>
-                    </div>
+{{--    <h2>--}}
+{{--        Что говорят о нас?--}}
+{{--    </h2>--}}
+{{--    <p class="desc">--}}
+{{--        Для полной чистоты отзывов про нас, вы можете поискать наших клиентов, связываться с ними и спросить всю информацию.--}}
+{{--    </p>--}}
+{{--    <div class="container">--}}
+{{--        <div class="carousel">--}}
+{{--            <div class="swiper-container">--}}
+{{--                <div class="swiper-wrapper">--}}
+{{--                    <div class="swiper-slide">--}}
+{{--                        <div class="feedback_image">--}}
+{{--                            <img src="{{ asset('assets/images/Ellipse2.png') }}">--}}
+{{--                        </div>--}}
+{{--                        <p class="name_of_comp">Название компании</p>--}}
+{{--                        <p class="feedack_itself">Какой то отзыв отзыв отзыв отзыв отзыв  отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв...</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="swiper-slide">--}}
+{{--                        <div class="feedback_image">--}}
+{{--                            <img src="{{ asset('assets/images/Ellipse2.png') }}">--}}
+{{--                        </div>--}}
+{{--                        <p class="name_of_comp">Название компании</p>--}}
+{{--                        <p class="feedack_itself">Какой то отзыв отзыв отзыв отзыв отзыв  отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв...</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="swiper-slide">--}}
+{{--                        <div class="feedback_image">--}}
+{{--                            <img src="{{ asset('assets/images/Ellipse2.png') }}">--}}
+{{--                        </div>--}}
+{{--                        <p class="name_of_comp">Название компании</p>--}}
+{{--                        <p class="feedack_itself">Какой то отзыв отзыв отзыв отзыв отзыв  отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв...</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="swiper-slide">--}}
+{{--                        <div class="feedback_image">--}}
+{{--                            <img src="{{ asset('assets/images/Ellipse2.png') }}">--}}
+{{--                        </div>--}}
+{{--                        <p class="name_of_comp">Название компании</p>--}}
+{{--                        <p class="feedack_itself">Какой то отзыв отзыв отзыв отзыв отзыв  отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв...</p>--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
 
 
 
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
+{{--            </div>--}}
+{{--            <div class="swiper-button-next"></div>--}}
+{{--            <div class="swiper-button-prev"></div>--}}
+{{--        </div>--}}
 
-    </div>
-</div>
+{{--    </div>--}}
+{{--</div>--}}
 
 
 
@@ -749,27 +756,27 @@
                     Будьте на связи
                 </h3>
                 <p class="desc_add">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Есть вопросы, пожелания или предложения для сотрудничества? Свяжитесь с нами!
                 </p>
 
                 <div class="address_icons first">
-                    <img src="{{ asset('assets/images/message.png') }}" alt="mail">
+                    <img src="{{ asset('assets/images/17.png') }}" alt="mail">
                     <p>
-                        <a href="mailto:support@gmail.com">support@gmail.com</a>
+                        <a href="mailto:easypick.kz@gmail.com">easypick.kz@gmail.com</a>
                     </p>
                 </div>
 
                 <div class="address_icons">
-                    <img src="{{ asset('assets/images/telephone.png') }}" alt="mail">
+                    <img src="{{ asset('assets/images/16.png') }}" alt="mail">
                     <p>
-                        <a href="tel:+77777777777">+7 (777) 777-77-77</a>
+                        <a href="tel:+77089429592">+7 (708) 942-95-92</a>
                     </p>
                 </div>
 
                 <div class="address_icons">
-                    <img src="{{ asset('assets/images/tochka.png') }}" alt="mail">
+                    <img src="{{ asset('assets/images/15.png') }}" alt="mail">
                     <p>
-                        Казахстан, г. Актюбе
+                        Казахстан, г. Актобе
                     </p>
                 </div>
             </div>
@@ -810,7 +817,7 @@
 
         <div class="footer_logo">
             <div class="logo">
-                <a href="#"><img src="{{ asset('assets/images/logo.png') }}" alt="logo"></a>
+{{--                <a href="#"><img src="{{ asset('assets/images/easypick.jpg') }}" alt="logo"></a>--}}
             </div>
             <div class="social_links">
                 <div class="instagram">

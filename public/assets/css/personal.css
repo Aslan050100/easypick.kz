@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "GothamProRegular"; 
+  font-family: "GothamProRegular";
   src: url("../fonts/GothamProRegular.eot");
   src: url("../fonts/GothamProRegular.eot?#iefix")format("embedded-opentype"),
   url("../fonts/GothamProRegular.woff") format("woff"),
@@ -187,8 +187,8 @@ a:hover{
     position: relative;
 }
 
-.modal-dialog { 
-    width: 52%; 
+.modal-dialog {
+    width: 52%;
     margin: 142px auto;
    -webkit-flex-direction: column;
    -moz-flex-direction: column;
@@ -419,7 +419,7 @@ a[href="http://www.faboba.com"] {
   justify-content: center;
   align-items: center;
   color: #fff;
-  
+
   width: 100%;
   height: 100%;
   font-size: 30px;
@@ -553,10 +553,11 @@ h2 {
 .leftside {
     display: flex;
     justify-content: space-between;
+    padding-left: 30px;
 }
 
 .inner {
-    display: flex;
+    display: block;
     width: 32%;
 }
 
@@ -584,25 +585,25 @@ tra {}
     transition: 0.7s ease;
 }
 
-.inner:hover .inner_leftside {
-    background: #000;
-}
+/*.inner:hover .inner_leftside {*/
+/*    background: #000;*/
+/*}*/
 
-.inner:hover .inner_rightside {
-    background: #000;
-}
+/*.inner:hover .inner_rightside {*/
+/*    background: #000;*/
+/*}*/
 
 .inner_rightside {
     transition: 0.7s ease;
 }
 
-.inner:hover .inner_rightside h3 {
-    color: #fff;
-}
+/*.inner:hover .inner_rightside h3 {*/
+/*    color: #fff;*/
+/*}*/
 
-.inner:hover .inner_rightside p {
-    color: #fff;
-}
+/*.inner:hover .inner_rightside p {*/
+/*    color: #fff;*/
+/*}*/
 
 
 .inner {}
@@ -1139,6 +1140,10 @@ form.second_form input:focus {
 .address_icons.first img {
     position: relative;
     left: 2px;
+    width: 20px;
+}
+.address_icons img {
+    width: 20px;
 }
 p.desc_add {
     margin-bottom: 35px;
@@ -1210,7 +1215,7 @@ footer {
 }
 
 .footer_logo {
-    margin-top: 75px;
+    margin-top: 100px;
 }
 
 .social_links div:hover path {
@@ -1250,6 +1255,7 @@ form.second_form h3 {
 
 .footer_links {
     margin-bottom: 44px;
+    margin-top: 10px;
 }
 
 footer:after {content: '';width: 100%;height: 1px;background: #fff;position: absolute;bottom: 42px;}

@@ -40,7 +40,7 @@
     form.second_form {
         width: 51%;
     }
-    
+
 }
 
 @media screen and (max-width: 480px) {
@@ -48,23 +48,23 @@
         flex-direction: column;
 
     }
-    
+
     .mimage {
         display: none;
     }
     /*
     .modal-body > form {
         width: 100%;
-    } 
-    
+    }
+
     .modal-body > form button.close {
         position: static;
     }
-    
+
     div#text3 {
         padding-top: 2rem;
     }
-    
+
     .mimage img {
         max-height: 148px;
     }
@@ -221,7 +221,34 @@
     .section3 h2.white {
         margin-top: 94px;
     }
-
+    /*edit Aslan*/
+    .section3{
+        position: relative;
+        top:450px;
+    }
+    .section4{
+        position: relative;
+        top:450px;
+    }
+    .section5{
+        position: relative;
+        top:450px;
+    }
+    .section6{
+        position: relative;
+        top:450px;
+    }
+    .section8{
+        position: relative;
+        top:450px;
+    }
+    footer{
+        position: relative;
+        top:450px;
+    }
+    .social_links{
+        padding-right: 72px;
+    }
     .section4 h2 {
         margin: 30px 0px;
     }
@@ -311,7 +338,7 @@ p.uptoh2 {
 }
 
 div#uslugi {
-    height: 1109px;
+    height: 1210px;
 }
 
 h2.white:after {
