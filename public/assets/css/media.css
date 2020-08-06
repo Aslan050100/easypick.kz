@@ -4,7 +4,9 @@
 @media screen and (max-width: 1200px) {}
 @media screen and (max-width: 1024px) {
 
-
+    .zabort{
+        right:-1px;
+    }
 
 
     .links a {
@@ -39,6 +41,9 @@
     }
     form.second_form {
         width: 51%;
+    }
+    #innerlast{
+        display: none;
     }
 
 }
@@ -75,7 +80,12 @@
     .links {
         display: none;
     }
-
+    .inner_rightside h3{
+        text-align: left;
+    }
+    .inner_rightside p{
+        text-align: left;
+    }
     .section_header h1 {
         font-size: 39px;
         margin-bottom: 35px;
@@ -106,6 +116,8 @@
 
     .inner {
         width: 100%;
+        position: relative;
+        left: 19px;
     }
 
     .zabort {
@@ -247,7 +259,7 @@
         top:450px;
     }
     .social_links{
-        padding-right: 72px;
+        padding-right: 123px;
     }
     .section4 h2 {
         margin: 30px 0px;
@@ -289,11 +301,22 @@
 @media screen and (max-width: 411px) {
 
     div#uslugi {
-        height: 964px;
+        height: 1200px;
     }
 
+
 }
-@media screen and (max-width: 375px) {}
+@media screen and (max-width: 375px) {
+    button#ordersite {
+        padding: 0px 48px;
+    }
+    .obertka {
+        padding: 2px;
+    }
+    .social_links{
+        padding-right: 102px;
+    }
+}
 @media screen and (max-width: 360px) {
     .section_header h1 {
     font-size: 25px;
@@ -336,6 +359,9 @@ p.uptoh2 {
     .section_header {
     left: 2%;
 }
+    .social_links{
+        padding-right: 72px;
+    }
 
 div#uslugi {
     height: 1210px;

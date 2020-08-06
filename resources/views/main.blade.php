@@ -153,7 +153,7 @@
                             <p>Изготовление банера</p>
                         </div>
                     </div>
-                    <div class="inner">
+                    <div class="inner" id="innerlast">
                         <div class="inner_leftside">
                             <img src="{{ asset('assets/images/10.png') }}">
                         </div>
@@ -551,142 +551,142 @@
 
 
 
-<div class="section6">
-    <div class="container">
-        <h2>
-            Наша Команда
-        </h2>
+{{--<div class="section6">--}}
+{{--    <div class="container">--}}
+{{--        <h2>--}}
+{{--            Наша Команда--}}
+{{--        </h2>--}}
 
-        <div class="komanda">
-            <div class="persona">
-                <img src="{{ asset('assets/images/aslan.jpg') }}">
-                <div class="hokage">
-                    <div class="name_surname">
-                        АСЛАН АЙТКУЛОВ
-                    </div>
-                    <div class="profession">
-                        РАЗРАБОТЧИК
-                    </div>
-                    <div class="quote">
-                        Люди научились использовать технологии, но разучились говорить с людьми…
-                    </div>
-                </div>
-            </div>
+{{--        <div class="komanda">--}}
+{{--            <div class="persona">--}}
+{{--                <img src="{{ asset('assets/images/aslan.jpg') }}">--}}
+{{--                <div class="hokage">--}}
+{{--                    <div class="name_surname">--}}
+{{--                        АСЛАН АЙТКУЛОВ--}}
+{{--                    </div>--}}
+{{--                    <div class="profession">--}}
+{{--                        РАЗРАБОТЧИК--}}
+{{--                    </div>--}}
+{{--                    <div class="quote">--}}
+{{--                        Люди научились использовать технологии, но разучились говорить с людьми…--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
-            <div class="persona">
-                <img src="{{ asset('assets/images/aziz.jpg') }}">
-                <div class="hokage">
-                    <div class="name_surname">
-                        АЗИЗ НАГМЕТУЛЛИН
-                    </div>
-                    <div class="profession">
-                        Дизайнер
-                    </div>
-                    <div class="quote">
-                        Есть три ответа на результат дизайна – да, нет и НИЧЕГО СЕБЕ! «Ничего себе» – это то, к чему надо стремиться
-                    </div>
-                </div>
-            </div>
+{{--            <div class="persona">--}}
+{{--                <img src="{{ asset('assets/images/aziz.jpg') }}">--}}
+{{--                <div class="hokage">--}}
+{{--                    <div class="name_surname">--}}
+{{--                        АЗИЗ НАГМЕТУЛЛИН--}}
+{{--                    </div>--}}
+{{--                    <div class="profession">--}}
+{{--                        Дизайнер--}}
+{{--                    </div>--}}
+{{--                    <div class="quote">--}}
+{{--                        Есть три ответа на результат дизайна – да, нет и НИЧЕГО СЕБЕ! «Ничего себе» – это то, к чему надо стремиться--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
-            <div class="persona">
-                <img src="{{ asset('assets/images/aibol.jpg') }}">
-                <div class="hokage">
-                    <div class="name_surname">
-                        АЙБОЛ СИСЕНОВ
-                    </div>
-                    <div class="profession">
-                        Менеджер
-                    </div>
-                    <div class="quote">
-                        Менеджер: человек, принимающий быстрые решения — и иногда верные.
-                    </div>
-                </div>
-            </div>
+{{--            <div class="persona">--}}
+{{--                <img src="{{ asset('assets/images/aibol.jpg') }}">--}}
+{{--                <div class="hokage">--}}
+{{--                    <div class="name_surname">--}}
+{{--                        АЙБОЛ СИСЕНОВ--}}
+{{--                    </div>--}}
+{{--                    <div class="profession">--}}
+{{--                        Менеджер--}}
+{{--                    </div>--}}
+{{--                    <div class="quote">--}}
+{{--                        Менеджер: человек, принимающий быстрые решения — и иногда верные.--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
-            <div class="persona">
-                <img src="{{ asset('assets/images/aslan2.jpg') }}">
-                <div class="hokage">
-                    <div class="name_surname">
-                        КУАНЫШ ЖАЙШЫЛЫК
-                    </div>
-                    <div class="profession">
-                        Дизайнер
-                    </div>
-                    <div class="quote">
-                        Именно через ошибки мы можем расти. Вы должны бать плохими для того, чтобы стать хорошими.
-                    </div>
-                </div>
-            </div>
+{{--            <div class="persona">--}}
+{{--                <img src="{{ asset('assets/images/aslan2.jpg') }}">--}}
+{{--                <div class="hokage">--}}
+{{--                    <div class="name_surname">--}}
+{{--                        КУАНЫШ ЖАЙШЫЛЫК--}}
+{{--                    </div>--}}
+{{--                    <div class="profession">--}}
+{{--                        Дизайнер--}}
+{{--                    </div>--}}
+{{--                    <div class="quote">--}}
+{{--                        Именно через ошибки мы можем расти. Вы должны бать плохими для того, чтобы стать хорошими.--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
-            <div class="persona">
-                <img src="{{ asset('assets/images/dias.jpg') }}">
-                <div class="hokage">
-                    <div class="name_surname">
-                        ДИАС КУЖАКУЛОВ
-                    </div>
-                    <div class="profession">
-                        СММ Менеджер
-                    </div>
-                    <div class="quote">
-                        Это своего рода забава – делать невозможное.
-                    </div>
-                </div>
-            </div>
+{{--            <div class="persona">--}}
+{{--                <img src="{{ asset('assets/images/dias.jpg') }}">--}}
+{{--                <div class="hokage">--}}
+{{--                    <div class="name_surname">--}}
+{{--                        ДИАС КУЖАКУЛОВ--}}
+{{--                    </div>--}}
+{{--                    <div class="profession">--}}
+{{--                        СММ Менеджер--}}
+{{--                    </div>--}}
+{{--                    <div class="quote">--}}
+{{--                        Это своего рода забава – делать невозможное.--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
-            <div class="persona">
-                <img src="{{ asset('assets/images/aslan3.jpg') }}">
-                <div class="hokage">
-                    <div class="name_surname">
-                        АЛИХАН МУРАТУЛЫ
-                    </div>
-                    <div class="profession">
-                        Разработчик
-                    </div>
-                    <div class="quote">
-                        Если отладка — процесс удаления ошибок, то программирование должно быть процессом их внесения.
-                    </div>
-                </div>
-            </div>
+{{--            <div class="persona">--}}
+{{--                <img src="{{ asset('assets/images/aslan3.jpg') }}">--}}
+{{--                <div class="hokage">--}}
+{{--                    <div class="name_surname">--}}
+{{--                        АЛИХАН МУРАТУЛЫ--}}
+{{--                    </div>--}}
+{{--                    <div class="profession">--}}
+{{--                        Разработчик--}}
+{{--                    </div>--}}
+{{--                    <div class="quote">--}}
+{{--                        Если отладка — процесс удаления ошибок, то программирование должно быть процессом их внесения.--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
-            <div class="persona">
-                <img src="{{ asset('assets/images/alibi.jpg') }}">
-                <div class="hokage">
-                    <div class="name_surname">
-                        АЛИБИ МУХИТУЛЫ
-                    </div>
-                    <div class="profession">
-                        Разработчик
-                    </div>
-                    <div class="quote">
-                        НЕ БОЙСЯ МЕДЛИТЬ, БОЙСЯ ОСТАНОВИТЬСЯ
-                    </div>
-                </div>
-            </div>
+{{--            <div class="persona">--}}
+{{--                <img src="{{ asset('assets/images/alibi.jpg') }}">--}}
+{{--                <div class="hokage">--}}
+{{--                    <div class="name_surname">--}}
+{{--                        АЛИБИ МУХИТУЛЫ--}}
+{{--                    </div>--}}
+{{--                    <div class="profession">--}}
+{{--                        Разработчик--}}
+{{--                    </div>--}}
+{{--                    <div class="quote">--}}
+{{--                        НЕ БОЙСЯ МЕДЛИТЬ, БОЙСЯ ОСТАНОВИТЬСЯ--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
-            <div class="persona">
-                <img src="{{ asset('assets/images/marzhan.jpg') }}">
-                <div class="hokage">
-                    <div class="name_surname">
-                        МАРЖАН КАБИДОЛЛАЕВА
-                    </div>
-                    <div class="profession">
-                        Дизайнер
-                    </div>
-                    <div class="quote">
-                        ЧТО БЫ ТЫ НЕ ДЕЛАЛ — ТЫ ДЕЛАЕШЬ СЕБЯ.
-                    </div>
-                </div>
-            </div>
-
-
-
-
-        </div>
-    </div>
+{{--            <div class="persona">--}}
+{{--                <img src="{{ asset('assets/images/marzhan.jpg') }}">--}}
+{{--                <div class="hokage">--}}
+{{--                    <div class="name_surname">--}}
+{{--                        МАРЖАН КАБИДОЛЛАЕВА--}}
+{{--                    </div>--}}
+{{--                    <div class="profession">--}}
+{{--                        Дизайнер--}}
+{{--                    </div>--}}
+{{--                    <div class="quote">--}}
+{{--                        ЧТО БЫ ТЫ НЕ ДЕЛАЛ — ТЫ ДЕЛАЕШЬ СЕБЯ.--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
 
 
-</div>
+
+{{--        </div>--}}
+{{--    </div>--}}
+
+
+
+{{--</div>--}}
 
 
 
@@ -769,7 +769,7 @@
                 <div class="address_icons">
                     <img src="{{ asset('assets/images/16.png') }}" alt="mail">
                     <p>
-                        <a href="tel:+77089429592">+7 (708) 942-95-92</a>
+                        <a href="tel:+77007226769">+7 (700) 722-67-69</a>
                     </p>
                 </div>
 
