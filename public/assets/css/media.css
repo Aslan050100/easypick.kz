@@ -53,6 +53,9 @@
         flex-direction: column;
 
     }
+    #innerlast{
+        display:block;
+    }
 
     .mimage {
         display: none;
@@ -216,7 +219,7 @@
         margin-bottom: 7px;
     }
     .section2 {
-        height: 836px;
+        height: 1116px;
     }
     .section2 .container {
         padding-right: 0px;
@@ -301,7 +304,7 @@
 @media screen and (max-width: 411px) {
 
     div#uslugi {
-        height: 1200px;
+        height: 1112px;
     }
 
 
@@ -315,6 +318,9 @@
     }
     .social_links{
         padding-right: 102px;
+    }
+    div#uslugi{
+        height: 1112px;
     }
 }
 @media screen and (max-width: 360px) {
@@ -364,7 +370,7 @@ p.uptoh2 {
     }
 
 div#uslugi {
-    height: 1210px;
+    height: 1112px;
 }
 
 h2.white:after {
