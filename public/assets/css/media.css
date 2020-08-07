@@ -55,6 +55,7 @@
     }
     #innerlast{
         display:block;
+        padding-left: 72px;
     }
 
     .mimage {
@@ -239,27 +240,27 @@
     /*edit Aslan*/
     .section3{
         position: relative;
-        top:450px;
+        top:574px;
     }
     .section4{
         position: relative;
-        top:450px;
+        top:572px;
     }
     .section5{
         position: relative;
-        top:450px;
+        top:574px;
     }
     .section6{
         position: relative;
-        top:450px;
+        top:574px;
     }
     .section8{
         position: relative;
-        top:450px;
+        top:574px;
     }
     footer{
         position: relative;
-        top:450px;
+        top:574px;
     }
     .social_links{
         padding-right: 123px;

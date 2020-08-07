@@ -166,40 +166,6 @@
                         </div>
                     </div>
                 </div>
-
-{{--                <div class="leftside">--}}
-
-{{--                    <div class="inner">--}}
-{{--                        <div class="inner_leftside">--}}
-{{--                            <img src="{{ asset('assets/images/icon_card.png') }}">--}}
-{{--                        </div>--}}
-{{--                        <div class="inner_rightside">--}}
-{{--                            <h3>Интернет магазин</h3>--}}
-{{--                            <p>Интернет магазин вашего бизнеса. Поистине удобное решение для многих задач в вопросе ведения бизнеса - в настоящее время on-line торговля приносит не меньшую, а даже большую прибыль, чем продажи в стационарных магазинах. </p>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="inner">--}}
-{{--                        <div class="inner_leftside">--}}
-{{--                            <img src="{{ asset('assets/images/icon_card.png') }}">--}}
-{{--                        </div>--}}
-{{--                        <div class="inner_rightside">--}}
-{{--                            <h3>Корпоративный сайт</h3>--}}
-{{--                            <p>Интернет портал для бизнеса или “лицо” компании это необходимый элемент успешной работы компании. Корпоративный сайт может способствовать повышению имиджа, непосредственному взаимодействию с потребительской аудиторией и экономии на рекламе.</p>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="inner">--}}
-{{--                        <div class="inner_leftside">--}}
-{{--                            <img src="{{ asset('assets/images/icon_card.png') }}">--}}
-{{--                        </div>--}}
-{{--                        <div class="inner_rightside">--}}
-{{--                            <h3>Продвижение сайта </h3>--}}
-{{--                            <p>Хотите чтобы ваш сайт стоял на передовой при поиске потенциальными клиентами? Мы поможем!</p>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-
-
-{{--                </div>--}}
-
             </div>
         </div>
     </div>
@@ -781,11 +747,11 @@
                 <div class="name_surname">
                     Фамилия
                 </div>
-                <input type="text" name="phone" placeholder="Ваш Номер">
+                <input type="tel" id="phone" name="phone" placeholder="Ваш Номер">
                 <div class="name_surname">
                     Номер телефона
                 </div>
-                <input type="tel" name="message" placeholder="Ваше Сообщение">
+                <input type="text" name="message" placeholder="Ваше Сообщение">
                 <div class="obertka_button">
                     <div class="second_obertka">
                         <button type="submit" name="submit">Отправить</button>
@@ -809,9 +775,9 @@
             </div>
             <div class="social_links">
                 <div class="instagram">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                    <a href="https://www.instagram.com/easypick.kz/?hl=ru" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                         <path d="M8.60005 0.799805C4.29692 0.799805 0.800049 4.29668 0.800049 8.5998V19.3998C0.800049 23.7029 4.29692 27.1998 8.60005 27.1998H19.4C23.7032 27.1998 27.2001 23.7029 27.2001 19.3998V8.5998C27.2001 4.29668 23.7032 0.799805 19.4 0.799805H8.60005ZM21.2001 5.5998C21.861 5.5998 22.4 6.13887 22.4 6.7998C22.4 7.46074 21.861 7.9998 21.2001 7.9998C20.5391 7.9998 20 7.46074 20 6.7998C20 6.13887 20.5391 5.5998 21.2001 5.5998ZM14 7.39981C17.6422 7.39981 20.6 10.3576 20.6 13.9998C20.6 17.642 17.6422 20.5998 14 20.5998C10.3579 20.5998 7.40005 17.642 7.40005 13.9998C7.40005 10.3576 10.3579 7.39981 14 7.39981ZM14 8.5998C11.0235 8.5998 8.60005 11.0232 8.60005 13.9998C8.60005 16.9764 11.0235 19.3998 14 19.3998C16.9766 19.3998 19.4 16.9764 19.4 13.9998C19.4 11.0232 16.9766 8.5998 14 8.5998Z" fill="white"/>
-                    </svg>
+                    </svg></a>
                 </div>
                 <div class="twitter">
                     <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
